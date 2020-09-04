@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3030758c08.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   <style>
+        @import url(estilos.css);
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="bloque1">
+            <div>
+                <img class="img-avatar" src="IMG-2738.jpg" alt="Foto Sebastian Zegarra (bien pepa btw)">
+                <div>
+                    <h1>Sebastian Zegarra Pacheco</h1>
+                    <h2>MBA Candidate <br>University of Chigaco Booth School of Business</br>  </h2>
+                </div>
+            
+                <article class="datos">
+                    <h4 class="info">Email</h4>
+                    <span>  <a href="mailto:szegarra@chicagobooth.edu">szegarra@chicagobooth.edu</a> <i class="fas fa-envelope-open-text"></i> </span>
+                </article>
+
+                <article class="datos">
+                    <h4 class="info">Phone</h4>
+                    <span> <a href="callto:+51966913344">+51 966 913 344</a> <i class="fas fa-phone"></i> </span>
+
+                </article>
+
+                <article class="datos">
+                    <h4 class="info">Address</h4>
+                    <span>  <a href="mailto:szegarra@chicagobooth.edu">szegarra@chicagobooth.edu</a> <i class="fas fa-home"></i> </span>
+
+                </article>
+
+                <div class="lenguaje">
+                    <h4 class="titulo">Languages</h4>
+                    <p>
+                        English 
+                        <span class="barra"> 
+                            <span class="oculto">5/5</span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                        </span>
+                    </p>
+
+                    <p>
+                        Spanish 
+                        <span class="barra"> 
+                            <span class="oculto">5/5</span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                        </span>
+                    </p>
+
+                    <p>
+                        HTML5
+                        <span class="barra"> 
+                            <span class="oculto">3/5</span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class="Exp"></span>
+                            <span class=""></span>
+                            <span class=""></span>
+                        </span>
+                    </p>
+
+                </div>
+
+                
+            </div>    
+        </header>
+        <div class="bloque2"> 
+                        
+            <article>
+                <span class="inv"><i class="fab fa-vuejs"></i></span> <span class="vis"><i class="fab fa-vuejs fa-rotate-270"></i></span> <h4 class="titulo">Working Experience</h4> 
+                <ol>
+                    <li>Santander</li>
+                    <li>NASA</li>
+                    <li>McDonalds</li>
+                </ol>
+            </article>
+
+            <article>
+                <span class="inv"><i class="fab fa-vuejs"></i></span> <span class="vis"><i class="fab fa-vuejs fa-rotate-270"></i></span> <h4 class="titulo">Certifications</h4> 
+                <ul>
+                    <li>Howgarts</li>
+                    <li>MIT</li>
+                </ul>
+            </article>
+
+            <article>
+                <span class="inv"><i class="fab fa-vuejs"></i></span> <span class="vis"><i class="fab fa-vuejs fa-rotate-270"></i></span> <h4 class="titulo">Education</h4> 
+                <ul>
+                    <li>Howgarts</li>
+                    <li>MIT</li>
+                </ul>
+            </article>
+
+            <article class="secundario">
+                <span class="inv"><i class="fab fa-vuejs"></i></span> <span class="vis"><i class="fab fa-vuejs fa-rotate-270"></i></span> <h4 class="titulo">Other Activities</h4> 
+                <ul>
+                    <li>Howgarts</li>
+                    <li>MIT</li>
+                </ul>
+            </article>
+
+        </div>
+    </div>  
+    
+    <script>
+        $('article').click(function () {
+            $(this).toggleClass('active')
+        })
+
+        /*
+        $('img').click(function() {
+            $(this).toggleClass('big')
+        })
+
+        */
+
+
+    </script> 
+</body>
+</html>
